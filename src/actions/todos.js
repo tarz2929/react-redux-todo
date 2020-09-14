@@ -23,3 +23,7 @@ const addNewToDo = toDoContent => {
       payload: toDoContent
     };
   }
+
+  // If we want to use this in other files, we must export.
+// !!! Curly braces let us, comma separated, add multiple exports.
+  export { addNewToDo};
